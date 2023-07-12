@@ -11,45 +11,45 @@ pytorch  1.6.0-1.8.0.
 
 # Directory Structure
 
-│  README.md
-│  args_parser.py
-│  data.py
-│  data_generate.py
-│  modelv12_2_h_all.py      // FAFNet model. **Note: You should comment out the codes about HFS loss when testing.
-│  mylib.py                           // Some useful functions
-│  quality_assessment.py     // Some useful functions
-│  README.md
-│ test_reduced.py               // Test codes of FAFNet at reduced resolution
-│ test_full.py                     // Test codes of FAFNet at full resolution
-│  trainv12_2.py               // Training codes
-├─DWT_IDWT          // DWT and IDWT layers. Refer to "Wavelet Integrated CNNs for Noise-Robust Image Classification, CVPR 2020" for more details.
-│  │  DWT_IDWT_Functions.py
-│  │  DWT_IDWT_layer.py
-│  │  __init__.py
+│  README.md  
+│  args\_parser.py  
+│  data.py  
+│  data\_generate.py  
+│  modelv12\_2\_h\_all.py      // FAFNet model. **Note: You should comment out the codes about HFS loss when testing.  
+│  mylib.py                           // Some useful functions  
+│  quality\_assessment.py     // Some useful functions  
+│  README.md  
+│ test\_reduced.py               // Test codes of FAFNet at reduced resolution  
+│ test\_full.py                     // Test codes of FAFNet at full resolution  
+│  trainv12\_2.py               // Training codes  
+├─DWT\_IDWT          // DWT and IDWT layers. Refer to "Wavelet Integrated CNNs for Noise-Robust Image Classification, CVPR 2020" for more details.  
+│  │  DWT\_IDWT\_Functions.py  
+│  │  DWT\_IDWT\_layer.py  
+│  │  \_\_init\_\_.py  
+│    
 │  
-│
-├─image         // Model Architecture
-│      FAFNet13.pdf
-│
-├─trained_model
-│      model_epoch1999_wv4.pth    // Pretrained model for WV4 dataset 
-│
-└─WV4
-    ├─test
-    │  ├─ms
-    │  │      36.mat
-    │  │      39.mat
+├─image           // Model Architecture  
+│      FAFNet13.pdf  
+│  
+├─trained_model    
+│      model\_epoch1999\_wv4.pth    // Pretrained model for WV4 dataset   
+│  
+└─WV4  
+    ├─test  
+    │  ├─ms  
+    │  │      36.mat  
+    │  │      39.mat  
     │  │
-    │  └─pan
-    │          36.mat
-    │          39.mat
+    │  └─pan  
+    │          36.mat  
+    │          39.mat  
     │
-    ├─train
-    │  ├─ms
-    │  └─pan
-    └─val
-        ├─ms
-        └─pan
+    ├─train  
+    │  ├─ms  
+    │  └─pan  
+    └─val  
+        ├─ms  
+        └─pan  
 
 
 # Get Started 
@@ -65,7 +65,8 @@ Put the training ms data in "WV4\train\\ms\\**1.mat"
 Put its corresponding pan data  in "WV4\train\\pan\\**1.mat" with the same file name
 
 Download the pretrained model in the following link:
-Link: https://pan.baidu.com/s/1NRxsBKCZfMDZGmYqBBa73Q 
+
+Link: https://pan.baidu.com/s/1NRxsBKCZfMDZGmYqBBa73Q   
 code: qrp7
 
 
@@ -74,12 +75,12 @@ code: qrp7
 
 If you find this code helpful, please kindly cite:
 
-@article{xing2023pansharpening,
-  title={Pansharpening via Frequency-Aware Fusion Network with Explicit Similarity Constraints},
-  author={Xing, Yinghui and Zhang, Yan and He, Houjun and Zhang, Xiuwei and Zhang, Yanning},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2023},
-  publisher={IEEE}
+@article{xing2023pansharpening,  
+  title={Pansharpening via Frequency-Aware Fusion Network with Explicit Similarity Constraints},    
+  author={Xing, Yinghui and Zhang, Yan and He, Houjun and Zhang, Xiuwei and Zhang, Yanning},  
+  journal={IEEE Transactions on Geoscience and Remote Sensing},  
+  year={2023},  
+  publisher={IEEE}  
 }
 
 
