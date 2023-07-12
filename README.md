@@ -74,6 +74,13 @@ code: qrp7
 
 If you find this code helpful, please kindly cite:
 
+@article{xing2023pansharpening,
+  title={Pansharpening via Frequency-Aware Fusion Network with Explicit Similarity Constraints},
+  author={Xing, Yinghui and Zhang, Yan and He, Houjun and Zhang, Xiuwei and Zhang, Yanning},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2023},
+  publisher={IEEE}
+}
 
 
 
